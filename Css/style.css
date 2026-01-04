@@ -1034,7 +1034,13 @@ img {
 
   .home-blob {
     width: 270px;
-    background-color: red;
+    /* margin-top: 22rem; */
+    object-fit: cover;
+  }
+  .home-blob-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .home-scroll {
     display: block;
@@ -1182,3 +1188,5 @@ img {
     bottom: -4.5rem;
   }
 }
+
+/* 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 */

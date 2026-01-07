@@ -1199,7 +1199,7 @@ img {
 /* Conteneur plein écran */
 .image-wrapper {
   width: 100%;
-  min-height: 100vh;
+  /* min-height: 100vh;h */
 
   display: flex;
   justify-content: center;

@@ -1188,3 +1188,35 @@ img {
     bottom: -4.5rem;
   }
 }
+
+/* Reset minimal (évite les surprises) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Conteneur plein écran */
+.image-wrapper {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem; /* respire sur mobile */
+  background: #01153038; /* change si besoin */
+}
+
+/* Image intelligente */
+.home-blob-img {
+  width: 100%;
+  max-width: 600px; /* limite sur grands écrans */
+  height: auto;
+
+  max-height: 90vh; /* ne déborde jamais */
+  object-fit: contain; /* garde les proportions */
+
+  border-radius: 12px; /* optionnel : joli */
+}

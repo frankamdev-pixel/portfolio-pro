@@ -1189,17 +1189,14 @@ img {
   }
 }
 
-/* Reset minimal (évite les surprises) */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Conteneur plein écran */
 .image-wrapper {
   width: 100%;
-  /* min-height: 100vh;h */
 
   display: flex;
   justify-content: center;
